@@ -1,0 +1,80 @@
+body{
+    font-family: Cantarell !important;
+}
+@media screen and (max-width: 768px){
+    .movel {
+        display: none;
+    }
+}
+@media screen and (min-width: 768px){
+    .large {
+        display: none;
+    }
+}
+.header {
+    height: 100px;
+    background-color: #000000;
+    display: flex;
+    align-items: center;
+}
+
+.input-group {
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 15px;
+}
+
+.input-group input[type=text] {
+    border-radius: 9px;
+    position: relative;
+    width: 200px;
+}
+
+.input-group i {
+    position: absolute;
+    top: 22px;
+    right: 10px;
+}
+.card-limiter{
+    width: 98%;
+}
+.espacamento-interno{
+    padding: 10px;
+}
+.header{
+    color: #f44100;
+}
+.comprar{
+    position: relative;
+    float: right;
+    margin-right: 3%;
+    margin-bottom: 3%;
+    box-shadow: 5px 5px 40px #fc2100;
+
+}
+.btn {
+    background-color: #a51917;
+    width: 100%;
+}
+.btn:hover {
+    background-color: #a257af;
+}
+.espacador{
+    margin-left: 10px;
+    margin-top: 10px;
+}
+a {
+    color: #FFFFFF !important;
+}
+.btn-warning {
+    border-color: #fc2100;
+}
+#header a {
+    margin: 0 2% 0 2% !important;
+}
+nav {
+    width: 100%;
+}
+nav:first-child{
+    margin-left: 4%;
+}
